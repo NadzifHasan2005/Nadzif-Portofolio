@@ -54,13 +54,13 @@ Portofolio pribadi yang dirancang untuk merefleksikan latar belakang di bidang *
 
 <div align="center">
 
-| Beranda | Keahlian | Proyek |
-|:---:|:---:|:---:|
-| _tambahkan screenshot_ | _tambahkan screenshot_ | _tambahkan screenshot_ |
+| Beranda | Keahlian |
+|:---:|:---:|
+| ![Beranda](./src/assets/home-preview.png) | ![Keahlian](./src/assets/skills-preview.png) |
 
 </div>
 
-> 💡 Ganti tabel di atas dengan screenshot asli — simpan di `src/assets/screenshots/` lalu referensikan dengan `![alt](src/assets/screenshots/nama-file.png)`
+> 💡 Simpan kedua gambar di atas ke `src/assets/screenshots/` dengan nama `home-preview.png` dan `skills-preview.png` supaya tampil di GitHub. Tambahkan screenshot section **Experience** dan **Contact** dengan cara yang sama begitu section tersebut sudah jadi.
 
 ## ⚡ Fitur
 
