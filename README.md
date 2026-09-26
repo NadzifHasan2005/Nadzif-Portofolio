@@ -1,27 +1,89 @@
-# Nadzif Portfolio
+<div align="center">
 
-Personal portfolio website — dibangun dengan tema **network engineer**: terminal-style typography, signal bar, status indicator, dan animasi bergaya sinyal jaringan.
+# 🌐 Nadzif Portfolio
 
-🔗 **Live demo:** _(tambahkan link setelah deploy)_
+### `IP Engineer` × `Software Engineer`
 
-![status](https://img.shields.io/badge/status-in%20development-yellow)
-![react](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
-![vite](https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white)
+Personal portfolio dengan tema **network engineer** — terminal typography, signal bar, dan animasi bergaya sinyal jaringan.
+
+<br/>
+
+![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-8-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![React Router](https://img.shields.io/badge/React_Router-7-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white)
+![Status](https://img.shields.io/badge/status-in%20development-f7d060?style=for-the-badge)
+
+<br/>
+
+[🔗 Live Demo](#) · [🐛 Report Bug](../../issues) · [✨ Request Feature](../../issues)
+
+</div>
+
+<br/>
+
+```
+> whoami
+Muhammad Ramdhan Nadzif Hasan
+Telecommunications Engineering Student @ Telkom University
+Interning as Network & Full-Stack Developer
+
+> status: SYSTEM ONLINE ●
+```
 
 ---
 
-## ✨ Tentang
+## 📖 Daftar Isi
 
-Portofolio pribadi Muhammad Ramdhan Nadzif Hasan — Telecommunications Engineering student & aspiring Network Engineer. Website ini menampilkan profil, keahlian, dan proyek dengan visual bertema jaringan/terminal untuk merefleksikan latar belakang di bidang **networking** dan **software engineering**.
+- [Tentang](#-tentang)
+- [Preview](#-preview)
+- [Fitur](#-fitur)
+- [Tech Stack](#-tech-stack)
+- [Struktur Proyek](#-struktur-proyek)
+- [Instalasi](#-instalasi--menjalankan-secara-lokal)
+- [Routing](#-routing)
+- [Roadmap](#-roadmap)
+- [Kontak](#-kontak)
 
-## 🚀 Tech Stack
+---
 
-| Kategori | Tools |
+## 🎯 Tentang
+
+Portofolio pribadi yang dirancang untuk merefleksikan latar belakang di bidang **networking** dan **software engineering**. Alih-alih desain portofolio pada umumnya, situs ini mengadopsi visual **terminal & network monitoring** — signal bar sebagai indikator skill, status badge ala uptime server, dan efek scanline yang meniru dashboard jaringan.
+
+## 🖼️ Preview
+
+<div align="center">
+
+| Beranda | Keahlian | Proyek |
+|:---:|:---:|:---:|
+| _tambahkan screenshot_ | _tambahkan screenshot_ | _tambahkan screenshot_ |
+
+</div>
+
+> 💡 Ganti tabel di atas dengan screenshot asli — simpan di `src/assets/screenshots/` lalu referensikan dengan `![alt](src/assets/screenshots/nama-file.png)`
+
+## ⚡ Fitur
+
+- 🖥️ **Terminal-style UI** — font monospace, blinking cursor, dan status indicator ala CLI
+- 📊 **Signal-bar skill indicator** — visualisasi level keahlian dengan gaya bar signal jaringan
+- 🟢 **Live status footer** — jam real-time dan indikator "system online" yang berdenyut
+- 🎬 **Micro-interactions** — fade-in bertahap, ping animation di social links, hover glow di setiap card
+- 📱 **Responsive navigation** — navbar pill yang transparan di atas, solid saat di-scroll
+- 🗂️ **Project showcase** — kartu proyek dengan status badge (Ongoing/Completed) dan tech-stack tag
+
+## 🧩 Tech Stack
+
+<div align="center">
+
+| Layer | Teknologi |
 |---|---|
-| Framework | React 19 + Vite |
-| Routing | React Router DOM v7 |
-| Styling | CSS custom (tanpa framework CSS) |
-| Linting | Oxlint |
+| **Framework** | React 19 |
+| **Build Tool** | Vite 8 |
+| **Routing** | React Router DOM v7 |
+| **Styling** | Custom CSS (vanilla, tanpa framework) |
+| **Linting** | Oxlint |
+
+</div>
 
 ## 📁 Struktur Proyek
 
@@ -44,9 +106,9 @@ nadzif_portofolio/
 └── vite.config.js
 ```
 
-## 🛠️ Instalasi & Menjalankan Secara Lokal
+## 🚀 Instalasi & Menjalankan Secara Lokal
 
-Pastikan sudah terinstall **Node.js** (disarankan versi 18 ke atas) dan **npm**.
+Pastikan sudah terinstall **Node.js** (≥18) dan **npm**.
 
 ```bash
 # 1. Clone repository
@@ -60,9 +122,9 @@ npm install
 npm run dev
 ```
 
-Buka `http://localhost:5173` di browser.
+Buka `http://localhost:5173` di browser. 🎉
 
-### Script yang tersedia
+<div align="center">
 
 | Command | Keterangan |
 |---|---|
@@ -71,13 +133,19 @@ Buka `http://localhost:5173` di browser.
 | `npm run preview` | Preview hasil build secara lokal |
 | `npm run lint` | Menjalankan Oxlint untuk cek kualitas kode |
 
+</div>
+
 ## 🗺️ Routing
 
+<div align="center">
+
 | Path | Komponen | Deskripsi |
-|---|---|---|
+|:---|:---|:---|
 | `/` | `Home.jsx` | Halaman utama / hero section |
 | `/Skills` | `Skills.jsx` | Daftar keahlian teknis |
 | `/Experience` | `Experience.jsx` | Daftar proyek yang pernah dikerjakan |
+
+</div>
 
 ## 📌 Roadmap
 
@@ -85,14 +153,23 @@ Buka `http://localhost:5173` di browser.
 - [ ] Deploy ke Vercel / Netlify
 - [ ] Optimasi untuk mobile (responsive lanjutan)
 - [ ] Dark/light mode toggle
+- [ ] Ganti navigasi `<a>` menjadi `<Link>` untuk client-side routing
 
 ## 📬 Kontak
 
-- GitHub: [@NadzifHasan2005](https://github.com/NadzifHasan2005)
-- LinkedIn: [Muhammad Ramdhan Nadzif Hasan](https://www.linkedin.com/in/muhammad-ramdhan-nadzif-hasan-0156a5211/)
-- Instagram: [@mr_nadzif19](https://www.instagram.com/mr_nadzif19/)
-- Email: nadzif.hasan3work@gmail.com
+<div align="center">
 
-## 📄 Lisensi
+[![GitHub](https://img.shields.io/badge/GitHub-NadzifHasan2005-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NadzifHasan2005)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Nadzif_Hasan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammad-ramdhan-nadzif-hasan-0156a5211/)
+[![Instagram](https://img.shields.io/badge/Instagram-mr__nadzif19-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/mr_nadzif19/)
+[![Email](https://img.shields.io/badge/Email-nadzif.hasan3work-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nadzif.hasan3work@gmail.com)
 
-Proyek ini dibuat untuk keperluan personal portfolio. Bebas digunakan sebagai referensi, mohon cantumkan atribusi jika menyalin struktur/desain.
+</div>
+
+---
+
+<div align="center">
+
+**© 2026 Nadzif — All packets delivered.** 📡
+
+</div>
